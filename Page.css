@@ -1,0 +1,143 @@
+﻿
+/*page 3.0*/
+.JH_Page
+{
+    padding: 0px;
+    margin: 10px 0px;
+    /* height: 20px; */
+    text-align: left;
+    list-style: none;
+    /* line-height: 20px; */
+    color: #333333;
+    font-size: 14px;
+}
+
+.JH_Page > a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    text-align: center;
+}
+
+.JH_Page .size
+{
+    border: 1px solid #dddddd;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.JH_Page .first, .JH_Page .prev,
+.JH_Page .next, .JH_Page .last,
+.JH_Page .cell
+{
+    border: 1px solid #dddddd;
+    /* padding: 1px 12px; */
+    margin: 0px 2px;
+    min-width: 28px;
+    height: 28px;
+    line-height: 28px;
+    cursor:pointer;
+}
+
+.JH_Page .cell
+{
+    /* width: 20px; */
+}
+
+.JH_Page .cell.on
+{
+    border: 1px solid #008cd6;
+    background: #008cd6;
+    color: #FFFFFF
+}
+
+.JH_Page .first.off, .JH_Page .prev.off,
+.JH_Page .next.off, .JH_Page .last.off
+{
+    border: 1px solid #dddddd;
+    cursor: not-allowed;
+    color: #dddddd;
+}
+
+.JH_Page .summary
+{
+    margin-left: 5px;
+}
+
+.JH_Page [hidden]
+{
+    display:none;
+}
+
+/*page 3.0*/
+
+
+.JH_Page1
+{
+    padding: 0px;
+    margin: 10px 0px;
+    /* height: 20px; */
+    text-align: left;
+    list-style: none;
+    /* line-height: 20px; */
+    color: #333333;
+    font-size: 14px;
+}
+
+.JH_Page1 > a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    text-align: center;
+}
+
+.JH_Page1 .size
+{
+    border: 1px solid #dddddd;
+    height: 31px;
+    margin-right: 8px;
+}
+
+.JH_Page1 .first, .JH_Page1 .prev,
+.JH_Page1 .next, .JH_Page1 .last,
+.JH_Page1 .cell
+{
+    border: 1px solid #dddddd;
+    /* padding: 1px 12px; */
+    margin: 0px 2px;
+    min-width: 30px;
+    height: 30px;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.JH_Page1 .cell
+{
+    /* width: 20px; */
+}
+
+.JH_Page1 .cell.on
+{
+    border: 1px solid #008cd6;
+    background: #008cd6;
+    color: #FFFFFF
+}
+
+.JH_Page1 .first.off, .JH_Page1 .prev.off,
+.JH_Page1 .next.off, .JH_Page1 .last.off
+{
+    border: 1px solid #dddddd;
+    cursor: not-allowed;
+    color: #dddddd;
+}
+
+.JH_Page1 .summary
+{
+    margin-left: 5px;
+}
+.JH_Page1 [hidden]
+{
+    display: none;
+}
